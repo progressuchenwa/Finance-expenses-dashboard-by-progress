@@ -4,6 +4,8 @@
 This project was built to make income and expense tracking simple and visual. Using **Excel**, I created an interactive dashboard that highlights total spending, income comparisons, and category trends.  
 The aim was to see how money is managed month to month and to spot areas for improvement.  
 
+## DataSet Used
+
 ## Objective  
 The dashboard was designed to:  
 - Track total income and expenses.  
