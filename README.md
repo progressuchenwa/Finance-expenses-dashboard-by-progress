@@ -1,17 +1,23 @@
-# Finance Expenses Dashboard  
+# Finance Expenses Dashboard (Interactive Dashboard Creating Using MS Excel)  
 
 ## Project Overview  
 This project was built to make income and expense tracking simple and visual. Using **Excel**, I created an interactive dashboard that highlights total spending, income comparisons, and category trends.  
 The aim was to see how money is managed month to month and to spot areas for improvement.  
 
 ## DataSet Used
+[📊 View dataset](https://github.com/progressuchenwa/Finance-expenses-dashboard-by-progress/blob/main/Finance%20Expenses%20Data.xlsx)
 
 ## Objective  
 The dashboard was designed to:  
 - Track total income and expenses.  
 - Break down spending by category and subcategory.  
 - Show monthly trends over time.  
-- Provide an overall picture of financial balance.  
+- Provide an overall picture of financial balance.
+
+## Finance Dashboard  
+
+![Finance Dashboard View](https://github.com/progressuchenwa/Finance-expenses-dashboard-by-progress/blob/main/Finance%20Dashboard%20By%20Progress.png)
+
 
 ## Data Preparation  
 - Cleaned and formatted raw income and expense data.  
@@ -25,7 +31,7 @@ The dashboard was designed to:
 - **Income vs Expenses:** Comparison of earnings against spend.  
 - **Monthly Expense Trend:** Time-based income vs expense tracking.  
 
-## Dashboard Design  
+## Project Dashboard Design  
 The dashboard combined different charts to tell a complete story:  
 
 - **Total Spend by Account – Doughnut Chart**  
@@ -45,7 +51,7 @@ The dashboard combined different charts to tell a complete story:
 
 *Interactive slicers* were added so users can filter by month, year, or category for a personalized view.  
 
-## Insights  
+## Project Insights  
 - **Spending habits:** Dining Out and Transport made up the biggest expenses.  
 - **Risks:** Certain months showed more spending than income.  
 - **Opportunities:** Expense-to-income ratio was around **72%**, showing savings potential.  
@@ -63,6 +69,5 @@ The clean design, interactive filters, and clear visuals make it practical for e
 - Chart selection and dashboard design  
 - Creating interactive dashboards with slicers  
 
-## Files in Repo  
 
 
