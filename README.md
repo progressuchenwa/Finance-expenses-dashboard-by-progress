@@ -64,9 +64,5 @@ The clean design, interactive filters, and clear visuals make it practical for e
 - Creating interactive dashboards with slicers  
 
 ## Files in Repo  
-- `data/finance-data.xlsx` → source dataset  
-- [(https://github.com/progressuchenwa/Finance-expenses-dashboard-by-progress/blob/main/Finance%20Dashboard%20By%20Progress.png) → screenshots of the dashboard  ](https://github.com/progressuchenwa/Finance-expenses-dashboard-by-progress)
 
-Example:  
-!(images/dashboard-overview.png)  ](https://drive.google.com/file/d/1sXCIDqYuP65Ds-7U9BTprQ0PI1orDxyQ/view?usp=sharing)
 
