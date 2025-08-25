@@ -1,18 +1,19 @@
 # Finance Expenses Dashboard (Interactive Dashboard Creating Using MS Excel)  
 
 ## Project Overview  
-This project was built to make income and expense tracking simple and visual. Using **Excel**, I created an interactive dashboard that highlights total spending, income comparisons, and category trends.  
-The aim was to see how money is managed month to month and to spot areas for improvement.  
+This project started with a messy dataset full of blanks, duplicates, and inconsistent formats. My task was to transform this raw financial data into a clean, structured, and interactive Excel dashboard that could tell a clear spending story.
+I went step by step: cleaning the dataset, creating calculated fields to give meaning to expenses, and designing a wireframed layout before building the visuals. The end result is a dashboard that highlights where money is going, month after month, in a way that’s simple and easy to read.
 
 ## DataSet Used
 [📊 View dataset](https://github.com/progressuchenwa/Finance-expenses-dashboard-by-progress/blob/main/Finance%20Expenses%20Data.xlsx)
 
 ## Objective  
-The dashboard was designed to:  
-- Track total income and expenses.  
-- Break down spending by category and subcategory.  
-- Show monthly trends over time.  
-- Provide an overall picture of financial balance.
+- The dashboard was designed to:
+- Track income vs expenses across months.
+- Break down spending by category and subcategory.
+- Show the biggest expense drivers at a glance.
+- Provide a structured story of how money is managed.
+- Allow interactive filtering with slicers for deeper exploration.
 
 ## Finance Dashboard  
 
@@ -20,9 +21,13 @@ The dashboard was designed to:
 
 
 ## Data Preparation  
-- Cleaned and formatted raw income and expense data.  
-- Standardized dates, categories, and amounts.  
-- Structured the dataset for pivot table analysis.  
+- Cleaned raw data: removed duplicates, fixed blanks, and standardized formats.
+- Created a Calculated Metrics with new fields:
+- Expense type (Fixed vs Variable)
+- Expense priority (Needs vs Wants)
+- Efficiency column to evaluate spending impact
+- Built a People Table that personalized the dataset and used formulas like IFERROR to replace blanks with zero, keeping the tables professional and consistent.
+- Structured the dataset for pivot table analysis. 
 
 ## Pivot Table Work  
 - **All Expenses (PivotTable4):** Central table consolidating expenses.  
@@ -32,42 +37,74 @@ The dashboard was designed to:
 - **Monthly Expense Trend:** Time-based income vs expense tracking.  
 
 ## Project Dashboard Design  
-The dashboard combined different charts to tell a complete story:  
+Before building the visuals, I created a wireframe to plan the layout. This step helped me decide:
+- What the user should notice first.
+- How the story should flow from total expenses down to details.
+- The right charts for the right comparisons.
 
-- **Total Spend by Account – Doughnut Chart**  
-  Quick view of where the most money is being spent.  
+**The final dashboard included:**
 
-- **Expense by Category – Waterfall Chart**  
-  Clear breakdown of category-level spending.  
+- **Living Expenses Highlight**: showing the largest spending area ($19,442).
 
-- **Income vs Expenses – Bar Chart**  
-  Direct comparison showing surplus or deficit.  
+- **Discretionary & Transport**: the next highest categories.
 
-- **Monthly Expense & Income Trend – Clustered Column Chart**  
-  Month-to-month shifts in earnings vs spending.  
+- **Charity & Medical**: smaller but consistent categories.
 
-- **Expense by Subcategory – Bar Chart**  
-  Deeper look at specific spending types.  
+- **Month-to-Month Trend**: reinforcing that living expenses dominate consistently.
 
-*Interactive slicers* were added so users can filter by month, year, or category for a personalized view.  
+- **Interactive slicers** : to filter by month, year, or category.
 
-## Project Insights  
-- **Spending habits:** Dining Out and Transport made up the biggest expenses.  
-- **Risks:** Certain months showed more spending than income.  
-- **Opportunities:** Expense-to-income ratio was around **72%**, showing savings potential.  
-- **Seasonal patterns:** Expenses spiked during holidays.  
+👉 **Two clickable icons were added**:
 
-## Conclusion  
-This dashboard pulls together income, expenses, and trends into one view.  
-It shows where money comes from, where it goes, and how it changes over time.  
-The clean design, interactive filters, and clear visuals make it practical for everyday financial decisions.  
+- One links to the calculated metrics sheet.
 
-## Skills Demonstrated  
-- Data cleaning and formatting  
-- Pivot table analysis in Excel  
-- Building KPIs for income, expenses, and net balance  
-- Chart selection and dashboard design  
-- Creating interactive dashboards with slicers  
+- Another links to the dashboard slide view for easier storytelling.
+
+*Interactive slicers* were added so users can filter by month, year.
+
+## Why This Project Matters
+
+Financial tracking is one of the most practical applications of data analysis. Businesses, nonprofits, and even households rely on dashboards like this to:
+
+- Spot where money leaks are happening.
+
+- Decide what categories to cut back on.
+
+- Compare fixed vs variable costs for better budgeting.
+
+- Make informed financial decisions at a glance.
+
+This project shows not only technical Excel skills but also the ability to think like a decision-maker, turning rows of numbers into a clear financial story that supports smarter choices.
+
+## Project Insights
+
+- Living expenses dominated spending throughout the dataset.
+
+- Discretionary and transport followed as the next major contributors.
+
+- Smaller categories like charity and medical were steady but low.
+
+- Spending trends repeated month after month, making it clear where adjustments could have the biggest impact.
+
+## Conclusion
+
+This project reinforced that cleaning and structuring data is where storytelling begins. By building calculated fields, standardizing entries, and wireframing before design, I was able to create a dashboard that flows naturally and highlights the story in seconds.
+
+The finished dashboard doesn’t just show numbers; it shows decisions.
+
+## Skills Demonstrated
+
+- Data cleaning & structuring in Excel
+
+- Creating calculated fields for deeper meaning
+
+- Pivot table design & analysis
+
+- Wireframing dashboard layouts
+
+- Chart selection & storytelling with visuals
+
+- Adding interactivity with slicers and navigation icons
 
 👉 **Let’s Connect!**
 
