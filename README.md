@@ -106,6 +106,10 @@ The finished dashboard doesn’t just show numbers; it shows decisions.
 
 - Adding interactivity with slicers and navigation icons
 
+## 👩About Me  
+I’m Ukamaka Uchenwa (Progress), a data analyst who enjoys turning messy datasets into stories that make sense.  
+📊 I specialize in Excel dashboards, data cleaning, and analysis with a strong eye for clarity and detail.  
+
 👉 **Let’s Connect!**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ukamaka/)
